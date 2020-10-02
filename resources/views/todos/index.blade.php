@@ -43,7 +43,7 @@
 
     </li>
     @empty
-            <p>No task available, create one.</p>
+            <p>現在、タスクが登録されていません。</p>
     @endforelse
 </ul>
 
