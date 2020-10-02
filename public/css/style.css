@@ -1,0 +1,134 @@
+
+.template {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.template h1 {
+    font-weight: normal;
+    padding-top: 2rem;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.tasklist {
+    padding: 0 40px;
+}
+
+li {
+    list-style: none;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    font-size: 1rem;
+}
+
+.container p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+.main-page {
+    width: 40%;
+    border: 3px solid #cfcfcf;
+    border-radius: 10px;
+    padding: 40px 0;
+    margin-top: 30px;
+}
+
+.main-title {
+    border-bottom: 2px solid #cfcfcf;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+.fa-trash {
+    color: red;
+    cursor: pointer;
+}
+
+.fa-check {
+    color: grey;
+    cursor: pointer;
+}
+
+.done {
+    color: green;
+    cursor: pointer;
+}
+
+
+.fa-edit {
+    color: orange;
+}
+
+.fa-plus-circle {
+    font-size: 2rem;
+    color: rgb(0, 162, 255);
+}
+
+
+.task-name {
+    text-decoration: line-through;
+    color: black;
+}
+
+.taskName {
+    color: black;
+}
+a.taskName {
+    text-decoration: none;
+    color: black;
+  }
+
+.fa-arrow-left {
+    font-size: 20px;
+    padding: 10px 0;
+    color: grey;
+}
+
+.title {
+    padding-top: 10px;
+}
+
+.description {
+    padding-top: 10px;
+}
+
+.btn-primary {
+    margin-top: 20px;
+}
+
+.sub-title h2 {
+    padding-top: 30px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.fa-plus {
+    cursor: pointer;
+    margin: 10px 0 20px 0;
+}
+
+.step {
+    margin-bottom: 10px;
+}
+
+.fa-times {
+    color: red;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.steps-name {
+    padding-top: 20px;
+}
+
+h3 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
