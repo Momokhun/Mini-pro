@@ -6,8 +6,13 @@
     <title>Todoリスト</title>
     <!-- css/app.cssを先に-->
 
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    @if(app('env') == 'production')
+        <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
+        <script src="{{ secure_asset('js/app.js') }}" defer></script>
+    @else
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <script src="{{ asset('js/app.js') }}" defer></script>
+    @endif
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a463021397.js" crossorigin="anonymous"></script>
