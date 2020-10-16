@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="main-title">
-    <h1>タスクリスト</h1>
+    <h1>ToDoリスト</h1>
     <a href="{{route('todo.create')}}" class="btn" role="button"><span class="fas fa-plus-circle"></span></a>
 </div>
 
