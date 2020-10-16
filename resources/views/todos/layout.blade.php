@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todoリスト</title>
     <!-- css/app.cssを先に-->
-    <link href="{{ secure_asset('resources/css/app.css') }}" rel="stylesheet">
-    <script src="{{ secure_asset('resources/js/app.js') }}" defer></script>
+    <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
+    <script src="{{ secure_asset('js/app.js') }}" defer></script>
 
     {{-- <link rel="stylesheet" href="{{ asset('css/style.css') }}"> --}}
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
