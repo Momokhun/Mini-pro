@@ -6,6 +6,7 @@
     <title>Todoリスト</title>
     <!-- css/app.cssを先に-->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <script src="{{ asset('js/app.js') }}" defer></script>
 
     {{-- <link rel="stylesheet" href="{{ asset('css/style.css') }}"> --}}
