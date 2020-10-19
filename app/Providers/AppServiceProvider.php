@@ -3,8 +3,8 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Support\Facades\Blade;
-use Illuminate\Routing\UrlGenerator;
+use Illuminate\Support\Facades\URL;
+
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -24,11 +24,10 @@ class AppServiceProvider extends ServiceProvider
      * @return void
      */
 
-    public function boot(UrlGenerator $url)
+    public function boot()
     {
-        if(env('APP_ENV') === 'ngrok')
-        {
-            $url->forceScheme('https');
+        if (env ('APP_ENV') !== 'local') {
+            URL::forceScheme('htpps');
         }
     }
 }
